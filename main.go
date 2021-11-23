@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"golang/foo"
+
+	"github.com/aiharanaoya/golang-test/foo"
 )
 
 func main() {
@@ -31,6 +32,7 @@ func test() {
 
 	// 定数
 	const msg4 = "hello"
+	fmt.Println(msg4)
 
 	fmt.Println(swap(2, 5))
 
